@@ -1,2 +1,4 @@
-# BAEKJOON
-BAEKJOON ONLINE JUDGE 문제 풀이
+# Algorithm
+알고리즘 문제 풀이 레포지토리입니다.
+
+## 인덱스
