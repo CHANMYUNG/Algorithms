@@ -78,15 +78,16 @@ int binarySearchFunc(int arr[], int target, int left, int right) {
 수행 횟수 = k  
 데이터의 개수 = N
 
-- 1번째 실행시작 당시에 데이터의 개수  
-![](https://latex.codecogs.com/gif.latex?N)  
-- 2번째 실행시작 당시에 데이터의 개수  
- ![](https://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%201%20%7D%7B%202%20%7D%20N)  
-- 3번째 실행시작 당시에 데이터의 개수  
-![](https://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%201%20%7D%7B%202%20%7D%5E2%20N)  
-- k번째 실행시작 당시에 데이터의 개수  
-![](https://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%201%20%7D%7B%202%20%7D%5Ek%20N)  
-
+- 탐색 시작 당시의 데이터의 개수  
+  ![](https://latex.codecogs.com/gif.latex?N)  
+- 탐색 1회 수행 후 데이터의 개수  
+  ![](https://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%201%20%7D%7B%202%20%7D%20N)  
+- 탐색 2회 수행 후 데이터의 개수  
+  ![](https://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%201%20%7D%7B%202%20%7D%5E2%20N)    
+- 탐색 k회 수행 후 데이터의 개수  
+  ![](https://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%201%20%7D%7B%202%20%7D%5Ek%20N)  
+  
+  
 탐색 종료를 위해서는 데이터의 개수가 1이 되어야 하므로  
 ![](https://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%201%20%7D%7B%202%20%7D%20%5E%7B%20k%20%7DN%3D1)  
 양 쪽에 2^k를 곱하면  
